@@ -3,11 +3,10 @@ font-family: 'Behistun';
 src: url(Cuneiform.ttf); 
 }
 html {
-font-family: sans-serif;
+font-family: 'Archivo Black', sans-serif;
 }
 .title {
 text-align: center;
-font-family: sans-serif;
 font-weight: 400, bold;
 font-size: 60px;
 }
@@ -20,7 +19,6 @@ width: 455px;
 text-align: center;
 position: relative;
 right: 20px;
-font-family: sans-serif;
 }
 .div-align-right {
 overflow: hidden;
