@@ -23,8 +23,10 @@ right: 20px;
 font-family: sans-serif;
 }
 .div-align-right {
+overflow: hidden;
+width: 450px;
 position: relative;
-left: 225px;
+left: 500px;
 top: 50px;
 text-align: center;
 }
