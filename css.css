@@ -1,3 +1,7 @@
+@font-face { 
+font-family: 'Behistun'; 
+src: url(Cuneiform.ttf); 
+}
 html {
 font-family: sans-serif;
 }
@@ -23,4 +27,7 @@ position: relative;
 left: 225px;
 top: 50px;
 text-align: center;
+}
+.cuneiform {
+font-family: 'Behistun';
 }
