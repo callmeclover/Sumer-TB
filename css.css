@@ -4,7 +4,7 @@ src: url(Cuneiform.ttf);
 }
 html {
 font-family: 'Archivo Black', sans-serif;
-color: #4b4170;
+color: #62578c;
 background-color: #2a1b2e;
 }
 .title {
@@ -13,7 +13,7 @@ font-weight: 400, bold;
 font-size: 60px;
 }
 .ffct {
-background-color: #91699b;
+background-color: #b683c3;
 border-radius: .5em;
 height: 275px;
 width: 460px;
