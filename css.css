@@ -2,11 +2,10 @@
 font-family: 'Behistun'; 
 src: url(Cuneiform.ttf); 
 }
-h1 {
-font-weight: 300px;
-}
 html {
 font-family: 'Archivo Black', sans-serif;
+color: #4b4170;
+background-color: #2a1b2e;
 }
 .title {
 text-align: center;
@@ -14,11 +13,10 @@ font-weight: 400, bold;
 font-size: 60px;
 }
 .ffct {
-background-color: #151515;
+background-color: #91699b;
 border-radius: .5em;
-color: white;
 height: 275px;
-width: 455px;
+width: 460px;
 text-align: center;
 position: relative;
 right: 20px;
@@ -31,6 +29,11 @@ left: 500px;
 top: 50px;
 text-align: center;
 }
+.div-align-right-txt {
+position: relative;
+left: 5px;
+}
 .cuneiform {
 font-family: 'Behistun';
+color: #eec8fa;
 }
