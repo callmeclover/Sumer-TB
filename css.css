@@ -2,6 +2,9 @@
 font-family: 'Behistun'; 
 src: url(Cuneiform.ttf); 
 }
+h1 {
+font-weight: 300px;
+}
 html {
 font-family: 'Archivo Black', sans-serif;
 }
