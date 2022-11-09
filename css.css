@@ -3,14 +3,19 @@ font-family: 'Behistun';
 src: url(Cuneiform.ttf); 
 }
 html {
-font-family: 'Archivo Black', sans-serif;
+font-family: 'Archivo', sans-serif;
 color: #62578c;
 background-color: #2a1b2e;
 }
 .title {
 text-align: center;
-font-weight: 400, bold;
+font-weight: 900;
 font-size: 60px;
+}
+.subtitle {
+text-align: center;
+font-weight: 700;
+font-size: 20px;
 }
 .ffct {
 background-color: #b683c3;
