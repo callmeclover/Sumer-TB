@@ -6,6 +6,7 @@ html {
 font-family: 'Archivo', sans-serif;
 color: #62578c;
 background-color: #2a1b2e;
+scroll-behavior: smooth;
 }
 .title {
 text-align: center;
@@ -16,6 +17,30 @@ font-size: 60px;
 text-align: center;
 font-weight: 700;
 font-size: 20px;
+}
+.tct {
+background-color: #b683c3;
+border-radius: .5em;
+height: 225px;
+width: 375px;
+text-align: center;
+position: relative;
+right: 370px;
+}
+.tct:hover {
+background-color: #b683c3;
+border-radius: .5em;
+height: 225px;
+width: 375px;
+text-align: center;
+position: relative;
+right: 20px;
+transition: all 1s ease-out;
+}
+.tcth {
+text-align: center;
+position: sticky;
+top: 10px;
 }
 .ffct {
 background-color: #b683c3;
@@ -44,4 +69,15 @@ color: #eec8fa;
 }
 .div-align-center {
     text-align:center;
+}
+.heading {
+    font-size: 38;
+    font-weight: 800;
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+p {
+font-weight: 500;
 }
