@@ -25,7 +25,9 @@ height: 225px;
 width: 375px;
 text-align: center;
 position: relative;
-right: 370px;
+right: 360px;
+   animation-name: out;
+   animation-duration:1s;
 }
 .tct:hover {
 background-color: #b683c3;
@@ -35,12 +37,30 @@ width: 375px;
 text-align: center;
 position: relative;
 right: 20px;
-transition: all 1s ease-out;
+   animation-name: in;
+   animation-duration:1s;
+}
+@keyframes in {
+    from {
+        right: 360px;
+    }
+    to {
+        right: 20px;
+    }
+}
+@keyframes out {
+    from {
+        right: 20px;
+    }
+    to {
+        right: 360px;
+    }
 }
 .tcth {
 text-align: center;
 position: sticky;
 top: 10px;
+z-index: 1;
 }
 .ffct {
 background-color: #b683c3;
@@ -80,4 +100,8 @@ text-decoration: none;
 }
 p {
 font-weight: 500;
+}
+.ap {
+position: relative;
+bottom: 200px;
 }
